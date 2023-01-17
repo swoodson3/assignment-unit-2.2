@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Variable is named Dane.
+// If name equals Mary console log would read Hi, Mary!
+// Name does not equal Mary, so the else function would be run.
+//Console log would then read How do you do? This should be what it should read.  
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Two Varibles secret and code. If code equals 123 secret would equal super.
+// Code does equal 123 so console log would output super.
+// Second if says, if code is greater than 250 secret would be duper.
+// Code is not greater than 250 so the 1st if statement would run. 
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// If isStudent is equal to true and zip is greater than 80000 than console log would run, Your a student on the West Coast.
+// Else if isStudent  equals false or age less than 30, console log would run What are your hobbies.
+// Else if isStudent equals true, console log would run Welcome to Prime! (Which is the correct output)
+//Else if none of them are correct console log would default to How about the weather. 
 
 //CODE
 /*
@@ -123,7 +123,9 @@ if (number >= 2) {
 
 */
 
-
+// Since colorOne blue and colorTwo red, plus mix is true than both shoulde be set to purple. 
+//Only colorOne is set to purple and not colorTwo. colorTwo should also be set to purple.
+//Plus they will need to console.log it as well. 
 
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
@@ -139,6 +141,9 @@ if (mix === true) {
 }
 */
 
+// The issue with this one is "||"" is "or". In the description it says and. 
+//It should be changed to &&.
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -151,6 +156,10 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+//Since age is greater or equal to minAge console log should run "Enter".
+//It does not beause if's console log is set to "no entry".
+//If and else's console logs need to be switched for it to run the correct console log of "enter".
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
